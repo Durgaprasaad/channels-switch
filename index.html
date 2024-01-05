@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tv{
+         margin-left: 30vw;
+         position: relative;
+        }
+
+        #ss1{
+            margin-top: 70px;
+            position: absolute;
+            margin-left: -560px;
+            display: none;
+        }
+        #dis{
+            margin-top: 70px;
+            position: absolute;
+            margin-left: -555px;
+            display: none;
+        }
+
+        #radio1:checked~#ss1{
+            display: inline;
+            z-index: 1;
+        }
+
+        #radio2:checked~#dis{
+            display: inline;
+            z-index: 2;
+        }
+
+        #history{
+            margin-top: 70px;
+            position: absolute;
+            margin-left: -555px;
+            display: none;
+        }
+
+        #radio3:checked~#history{
+            display: inline;
+            z-index: 3;
+        }
+
+        #wwe{
+            margin-top: 70px;
+            position: absolute;
+            margin-left: -555px;
+            display: none;
+        }
+
+        #radio4:checked~#wwe{
+            display: inline;
+            z-index: 4;
+        }
+
+        body{
+            background-color: rgba(128, 128, 128, 0.224);
+        }
+    </style>
+</head>
+<body>
+    <input id="radio1" type="radio" style="margin-left: 39vw; margin-top: 25vh;" value="starsports;" name="channels">Star Sports1
+    <input id="radio2" type="radio" value="Discovery" name="channels">Discovery
+    <input id="radio3" type="radio" value="History" name="channels">History
+    <input id="radio4" type="radio" value="WWE" name="channels">WWE
+    <img id="tv" src="./smart-tv-screen-with-copy-space-wooden-table_53876-102019.avif">
+    <img id="ss1" src="./screen-0.webp" width="490">
+    <img id="dis" src="./501612903_1.jpg" width="490" height="280">
+    <img id="history" src="./ea17275dca503882ec4f9c595082a856319cd67edfaaf8cb4979bce86061f8aa._UR1920,1080_SX720_FMjpg_.jpg" width="490">
+    <img id="wwe" src="./wwe-superstar-brock-lesnar-faces-wwe-superstar-seth-rollins.webp" width="480">
+</body> 
+</html>
